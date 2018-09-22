@@ -1,3 +1,20 @@
 body {
-    background-image: url("../images/gravel.png");
+    background: #4aaaa5;
+    color: #777777;
+    width: 960px;
+
+}
+
+#directhead {
+    background: #ffffff;
+    border-color: #cccccc;
+}
+
+#footer {
+    border-color: #666666;
+}
+
+.container {
+    background: #ffffff;
+    border-color: #dddddd;
 }
