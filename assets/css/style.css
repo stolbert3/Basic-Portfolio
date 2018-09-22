@@ -16,29 +16,35 @@ a {
     border-color: #cccccc;
     border-width: 2px;
     font-family: "Georgia";
-    display: inline-block;
+    padding: 10px;
+    display: flex;
+    margin: auto;
 }
 
 #logo {
     background: #4aaaa5;
     color: #ffffff;
-    display: inline-block;
     padding: 20px;
     font-size: 20pt;
 }
 
 #menu {
+    height: 100%;
+    margin: auto;
     text-align: right;
-    display: inline-block;
 }
 
 #info-container {
     background: #ffffff;
     border-color: #dddddd;
     border-width: 2px;
+    display: block;
+    margin: auto;
 }
 
 #footer {
     background: #666666;
+    display: block;
+    margin: auto;
 }
 
