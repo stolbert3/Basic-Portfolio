@@ -1,20 +1,44 @@
 body {
-    background: #4aaaa5;
+    background: url("../images/gravel.png");
     color: #777777;
     width: 960px;
+    font-family: "Helvetica Neue";
 
 }
 
-#directhead {
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.index-container {
     background: #ffffff;
     border-color: #cccccc;
+    border-width: 2px;
+    font-family: "Georgia";
+    display: inline-block;
+}
+
+#logo {
+    background: #4aaaa5;
+    color: #ffffff;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20pt;
+}
+
+#menu {
+    text-align: right;
+    display: inline-block;
+}
+
+#info-container {
+    background: #ffffff;
+    border-color: #dddddd;
+    border-width: 2px;
 }
 
 #footer {
-    border-color: #666666;
+    background: #666666;
 }
 
-.container {
-    background: #ffffff;
-    border-color: #dddddd;
-}
