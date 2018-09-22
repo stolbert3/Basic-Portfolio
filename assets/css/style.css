@@ -60,6 +60,7 @@ a {
 
 .container {
     position: relative;
+    overflow: auto;
     max-width: 960px;
     background: #ffffff;
     padding: 10px;
@@ -67,4 +68,15 @@ a {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+}
+
+#info-image {
+    float: left;
+    width: 40%;
+}
+
+#info-text {
+    float: right;
+    text-align: left;
+    width: 55%;
 }
