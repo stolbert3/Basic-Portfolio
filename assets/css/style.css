@@ -15,10 +15,9 @@ a {
 }
 
 #whiteBar {
-    position: fixed;
-    margin: 0 0 20px;
+    position: relative;
+    margin: 0px;
     background: #ffffff;
-    font-family: "Georgia";
     overflow: auto;
     width: 100%;
     height: 60px;
@@ -33,6 +32,7 @@ a {
 #logo {
     background: #4aaaa5;
     color: #ffffff;
+    font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 25pt;
     height: 60px;
     display: block;
@@ -43,9 +43,9 @@ a {
 
 #menu {
     font-size: 14pt;
+    padding-top: 20px;
     height: 60px;
-    text-align: right;
-    background: black;
+    text-align: center;
     display: block;
     float: right;
 }
@@ -59,12 +59,12 @@ a {
 }
 
 .container {
-    width: 100%;
+    position: relative;
     max-width: 960px;
     background: #ffffff;
-    border-color: #dddddd;
-    border-width: 2px;
-    display: block;
-    margin: 20px auto;
+    padding: 10px;
+    margin-top: 30px; 
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
 }
